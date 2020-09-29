@@ -273,6 +273,8 @@ nav{
     background-color: transparent;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    max-width: 600px;
 }
 .contact-form form textarea{
     height: 12vh;
@@ -447,10 +449,6 @@ footer .social-links a:hover{
 @media screen and (max-width:550px){
     .hero h1{
         font-size: 3rem;
-    }
-    .contact-form form input,
-    .contact-form form textarea{
-        width: 300px;
     }
     .contact{
         padding: 2rem 0;
