@@ -265,7 +265,6 @@ nav{
 }
 .contact-form form input:not(.send),
 .contact-form form textarea{
-    width: 500px;
     height: 4vh;
     margin-bottom: 1rem;
     border: none;
