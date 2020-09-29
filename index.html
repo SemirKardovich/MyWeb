@@ -71,11 +71,20 @@
            <div class="contact">
                <h1>Let's <span>Talk</span></h1>
                <div class="contact-form">
-                   <form action="#" method="POST">
-                        <input type="text" id="name" name="name" placeholder="You'r Name" required>
-                        <input type="text" id="email" name="email" placeholder="You'r E-mail" required>
-                        <textarea  name="message" id="message" placeholder="You'r message"></textarea>
-                        <a href="#" class="send" type="button">Send</a>
+                <!-- <form action="#" method="POST">
+                    <input type="text" id="name" name="name" placeholder="You'r Name" required>
+                    <input type="text" id="email" name="email" placeholder="You'r E-mail" required>
+                    <textarea  name="message" id="message" placeholder="You'r message"></textarea>
+                    <a href="#" class="send" type="button">Send</a>
+               </form> -->
+                   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/semir.k1612@gmail.com" method="post">
+                    <fieldset id="fs-frm-inputs">    
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        <input type="text" id="email-address" name="replyto" placeholder="Your E-mail" required>
+                        <textarea  name="message" id="message" placeholder="Your message"></textarea>
+                        <input type="hidden" name="subject" id="email-subject" value="Contact from portfolio">
+                        <input class="send" type="submit" value="Submit">
+                    </fieldset>
                    </form>
                </div>
                
