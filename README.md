@@ -1,8 +1,8 @@
 # MyWeb - Portfolio website
 
-## 💡 Idea : 
+## 💡 Idea
 
-This project is a personal portfolio showcasing my technical and proffesional skills. I decided to have a website portfolio so that i can build it from scratch as well as show my skills in action. This project will allow people to easily learn more about me, see projects i worked on and as well as get in touch.  
+This project is a personal portfolio showcasing my technical and professional skills. I decided to have a website portfolio so that I can build it from scratch as well as show my skills in action. This project will allow people to easily learn more about me, see projects I worked on, and as well as get in touch.  
 
 ## Features 
 
@@ -12,7 +12,7 @@ This project is a personal portfolio showcasing my technical and proffesional sk
 - Fully functional contact form
 - Download funcitonality (resume)
 
-## 👩‍💻 Programming languages :
+## 👩‍💻 Programming languages
 
 * HTML
 * CSS
@@ -20,11 +20,11 @@ This project is a personal portfolio showcasing my technical and proffesional sk
 * Smooth scroll library 
 * Formspree.io email service
 
-## 🔧 Tools used:
+## 🔧 Tools used
 
 * Visual Studio Code
 * My best friend Google 😁
 
-## 🔗 Check it out below:
+## 🔗 Check it out below
 
 * [Link to hosted website](https://semirkardovich.github.io/MyWeb/)  👀
