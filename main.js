@@ -27,6 +27,6 @@ navLink.forEach(function(link){
 
 // Smooth scroll
 
-let scroll = new SmoothScroll('.nav-links a[href*="#"]', {
+let scroll = new SmoothScroll('a[href*="#"]', {
     speed:800
 });
