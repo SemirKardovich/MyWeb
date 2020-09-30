@@ -33,7 +33,7 @@ nav{
 .nav-bar{
     margin: auto;
     width: 90%;
-    height: 8vh;
+    height: 6vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +56,7 @@ nav{
 .nav-links li a{
     color: #f4f4f4;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
 }
 .nav-links li a:hover{
@@ -154,7 +154,9 @@ nav{
     width: 100%;
     margin: auto;
     display: flex;
-    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 5rem;
     background-color: #f4f4f4;
     
 }
@@ -192,6 +194,8 @@ nav{
 .about-txt p {
     color: #444;
     font-size: 1rem;
+    max-width: 1000px;
+    width: 100%;
 }
 .resume{
     display: inline-block;
@@ -219,7 +223,7 @@ nav{
 .projects{
     width: 100%;
     background-color: #444;
-    padding-top: 5rem;
+    padding: 3rem 0;
     text-align: center;
     color: #f4f4f4;
     font-size: 1.5rem;
@@ -344,6 +348,9 @@ footer .social-links a:hover{
         justify-content: center;
         text-align: center;
     }
+    .about-txt{
+        padding-left: 0;
+    }
     .nav-links{
         position: absolute;
         background-color: rgb(31, 30, 30);
@@ -442,6 +449,9 @@ footer .social-links a:hover{
     .hamburger.active .bar::before{
         bottom: 0;
     }
+    .nav-bar{
+       height: 8vh;
+    }
 }
 /* End Tablet view */
 
@@ -461,7 +471,7 @@ footer .social-links a:hover{
         font-size: 1.2rem;
     }
     .hero h1{
-        font-size: 2.2rem;
+        font-size: 2.3rem;
     }
     .home .btn{
         padding: 10px 20px;
