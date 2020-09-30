@@ -56,7 +56,7 @@ nav{
 .nav-links li a{
     color: #f4f4f4;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 18px;
     font-weight: 700;
 }
 .nav-links li a:hover{
@@ -187,7 +187,7 @@ nav{
 .about-txt h2{
     font-size: 1.2rem;
     color: #444;
-    margin-bottom: .5rem;
+    margin-bottom: 30px;
 }
 .about-txt p {
     color: #444;

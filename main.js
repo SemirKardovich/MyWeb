@@ -1,14 +1,18 @@
+// DOM Elements
+
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 const navEl = document.getElementById("nav");
 const navLink = document.querySelectorAll(".nav-link");
+
+// Navigation(hamburger) funcitonality
 
 hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
     navLinks.classList.toggle("active");
 })
 
-
+// Nav-bar desing change on scroll
 document.addEventListener("scroll", ()=>{
     const scrollPosition = window.scrollY;
     if(scrollPosition > 250){
@@ -17,6 +21,7 @@ document.addEventListener("scroll", ()=>{
         navEl.style.backgroundColor = "transparent";   
     }
 })
+
 //Close navigation on click
 navLink.forEach(function(link){
     link.addEventListener("click", function(){
@@ -26,7 +31,6 @@ navLink.forEach(function(link){
 });
 
 // Smooth scroll
-
 let scroll = new SmoothScroll('a[href*="#"]', {
     speed:800
 });
