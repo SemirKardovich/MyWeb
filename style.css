@@ -15,10 +15,8 @@ span{
     color: crimson;
     font-weight: 900;
 }
-.container{
-    min-height: 100%;           
-}
-.home .container {
+
+.container {
     min-height: 100vh;
     width: 100%;
     display: flex;
