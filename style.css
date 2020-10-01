@@ -36,7 +36,7 @@ nav{
 .nav-bar{
     margin: auto;
     width: 90%;
-    height: 6vh;
+    min-height: 6vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -453,7 +453,7 @@ footer .social-links a:hover{
         bottom: 0;
     }
     .nav-bar{
-       height: 8vh;
+       min-height: 8vh;
     }
 }
 /* End Tablet view */
