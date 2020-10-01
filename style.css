@@ -43,14 +43,14 @@ nav{
     font-weight: 500;
     letter-spacing: .2rem;
     color: #f4f4f4;
-    flex: 1;
+    flex: 1 0 50%;
 }
 
 .nav-links{
     display: flex;
     flex-direction: row;
     list-style: none;
-    flex: 1;
+    flex: 1 0 50%;
     justify-content: space-around;
 }
 .nav-links li a{
@@ -183,11 +183,11 @@ nav{
 }
 .about-txt h1{
     color: #444;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 .about-txt h2{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #444;
     margin-bottom: 30px;
 }
@@ -230,7 +230,6 @@ nav{
 }
 .projects-container{
     width: 100%;
-    margin-top: 2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -238,10 +237,9 @@ nav{
     min-height: 50vh;
 }
 .project{
-    min-width: 200px;
     width: 300px;
     height: 300px;
-    margin:20px;
+    margin: 10px 20px;
     background-color: crimson;
 }
 
@@ -286,6 +284,7 @@ nav{
 }
 .contact-form .send{
     width: initial;
+    margin-top: 3rem;
     padding: 10px 30px;
     color: crimson;
     background-color: rgba(155, 138, 138, 0.671);
