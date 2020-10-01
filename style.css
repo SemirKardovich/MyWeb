@@ -272,6 +272,7 @@ nav{
 .contact-form form input:not(.send),
 .contact-form form textarea{
     min-height: 38.76px;
+    height: 4vh;
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid crimson;
@@ -284,6 +285,7 @@ nav{
 }
 .contact-form form textarea{
     min-height: 116.28px;
+    height: 12vh;
     resize: none;
 }
 .contact-form .send{
