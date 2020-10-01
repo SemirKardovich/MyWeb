@@ -36,6 +36,7 @@ nav{
 .nav-bar{
     margin: auto;
     width: 90%;
+    height: 100%;
     min-height: 6vh;
     display: flex;
     justify-content: space-between;
@@ -270,7 +271,7 @@ nav{
 }
 .contact-form form input:not(.send),
 .contact-form form textarea{
-    height: 4vh;
+    min-height: 4vh;
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid crimson;
@@ -282,7 +283,7 @@ nav{
     max-width: 600px;
 }
 .contact-form form textarea{
-    height: 12vh;
+    min-height: 12vh;
     resize: none;
 }
 .contact-form .send{
