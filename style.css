@@ -198,8 +198,7 @@ nav{
 .about-txt p {
     color: #444;
     font-size: 1rem;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 800px;
 }
 .resume{
     display: inline-block;
@@ -247,9 +246,9 @@ nav{
     flex-direction: column;
     align-items: center;
 }
-.project .btn {
+.project .code-link {
     display: inline-block;
-    width: fit-content;
+    width: 150px;
     padding: 10px 15px;
     color: #f4f4f4;
     background-color: transparent;
@@ -258,12 +257,28 @@ nav{
     font-size: .8rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin-bottom: 10px;
+    margin: 10px;
     transition: .3s ease;
     transition-property: background-color;
 }
-.project .btn:hover{
+.project .site-link {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 15px;
+    color: #f4f4f4;
     background-color: rgba(220, 20, 60, 0.589);
+    border: 2px solid crimson;
+    border-radius: 10px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 10px;
+    transition: .3s ease;
+    transition-property: background-color;
+}
+.project .site-link:hover,
+.project .code-link:hover{
+    background-color: crimson;
 }
 .project-img img {
     max-width: 500px;
@@ -312,23 +327,24 @@ nav{
     resize: none;
 }
 .contact-form .send{
-    width: initial;
-    margin-top: 3rem;
-    padding: 10px 30px;
-    color: crimson;
-    background-color: rgba(155, 138, 138, 0.671);
+    display: inline-block;
+    width: 150px;
+    padding: 10px 15px;
+    color: #f4f4f4;
+    background-color: rgba(220, 20, 60, 0.719);
     border: 2px solid crimson;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    margin: 10px;
     transition: .3s ease;
-    transition-property: background-color, color;
+    transition-property: background-color;
 }
 .contact-form .send:hover{
-    color: #f4f4f4;
-    background-color: rgba(220, 20, 60, 0.589);
+    background-color: crimson;
+    cursor: pointer;
 }
 /* End of Contact section*/
 
