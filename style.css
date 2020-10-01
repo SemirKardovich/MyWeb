@@ -285,7 +285,8 @@ nav{
 .project .code-link:hover{
     transform: scale(.9);
 }
-.project-img img {
+.project-img img{
+    margin-bottom: 20px ;
     max-width: 500px;
     width: 100%;
 }
@@ -305,7 +306,7 @@ nav{
     
 }
 .contact-form form{
-    padding: 2rem;
+    padding: 2rem 1rem 0;
     min-height: 400px;
     min-width: 250px;
     display: flex;
@@ -328,7 +329,7 @@ nav{
 }
 .contact-form form textarea{
     min-height: 116.28px;
-    height: 12vh;
+    height: 15vh;
     resize: none;
 }
 .contact-form .send{
@@ -343,7 +344,7 @@ nav{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin: 10px;
+    margin-top: 3rem;
     transition: .3s ease;
     transition-property: background-color;
 }
