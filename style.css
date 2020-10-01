@@ -267,7 +267,7 @@ nav{
     width: 150px;
     padding: 10px 15px;
     color: #f4f4f4;
-    background-color: rgba(220, 20, 60, 0.589);
+    background-color: crimson;
     border: 2px solid crimson;
     border-radius: 10px;
     font-size: .8rem;
@@ -279,7 +279,7 @@ nav{
 }
 .project .site-link:hover,
 .project .code-link:hover{
-    background-color: crimson;
+    transform: scale(.9);
 }
 .project-img img {
     max-width: 500px;
@@ -332,8 +332,8 @@ nav{
     width: 150px;
     padding: 10px 15px;
     color: #f4f4f4;
-    background-color: rgba(220, 20, 60, 0.719);
-    border: 2px solid crimson;
+    background-color:crimson;
+    border: none;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 700;
@@ -344,7 +344,7 @@ nav{
     transition-property: background-color;
 }
 .contact-form .send:hover{
-    background-color: crimson;
+    transform: scale(.9);
     cursor: pointer;
 }
 /* End of Contact section*/
