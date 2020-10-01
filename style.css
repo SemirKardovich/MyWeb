@@ -199,6 +199,7 @@ nav{
     color: #444;
     font-size: 1rem;
     max-width: 800px;
+    line-height: 1.8rem;
 }
 .resume{
     display: inline-block;
