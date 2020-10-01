@@ -38,10 +38,10 @@ let scroll = new SmoothScroll('a[href*="#"]', {
 
 // Redirects to a url if not there already.
 
-function redirect(url, development){
-    let url = "https://semirkardovich.github.io/MyWeb/";
-    if(!document.location.href != url && !development){
-        document.location.href = url;
-    }
-}
-redirect("https://semirkardovich.github.io/MyWeb/", false);
+// function redirect(url, development){
+//     let url = "https://semirkardovich.github.io/MyWeb/";
+//     if(!document.location.href != url && !development){
+//         document.location.href = url;
+//     }
+// }
+// redirect("https://semirkardovich.github.io/MyWeb/", false);
