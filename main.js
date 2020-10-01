@@ -34,3 +34,14 @@ navLink.forEach(function(link){
 let scroll = new SmoothScroll('a[href*="#"]', {
     speed:800
 });
+
+
+// Redirects to a url if not there already.
+
+function redirect(url, development){
+    let url = "https://semirkardovich.github.io/MyWeb/";
+    if(!document.location.href != url && !development){
+        document.location.href = url;
+    }
+}
+redirect("https://semirkardovich.github.io/MyWeb/", false);
