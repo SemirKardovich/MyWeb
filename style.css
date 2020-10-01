@@ -41,9 +41,9 @@ nav{
     align-items: center;
 }
 .logo{
+    padding-left: 3%;
     flex: 1 0 50%;
     display: flex;
-    align-items: center;
     justify-content: flex-start;
 }
 .logo-img{
