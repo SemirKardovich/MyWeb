@@ -523,6 +523,10 @@ footer .social-links a:hover{
     .projects{
         padding: 2rem 1rem;
     }
+    .nav-links li a::after{
+       font-size: 4rem;
+       letter-spacing: 20px;
+    }
 }
 /* End Mobile L */
 
