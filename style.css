@@ -34,14 +34,14 @@ nav{
 .nav-bar{
     margin: auto;
     width: 90%;
-    height: 6vh;
+    height: 7vh;
     min-height: 58.14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    padding: 20px 0 0 25px;
+    padding: 12px 0 0 25px;
     flex: 1 0 50%;
     display: flex;
     justify-content: flex-start;
@@ -552,7 +552,13 @@ footer .social-links a:hover{
     }
 }
 /* End Mobile L */
-
+/* Mobile S */
+@media screen and (max-width:330px){
+    .logo {
+        padding-left: 10px;
+    }
+}
+/* End Mobile S */
 
 
 
