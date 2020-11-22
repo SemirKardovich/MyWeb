@@ -12,16 +12,13 @@ This project is a personal portfolio showcasing my technical and professional sk
 - Fully functional contact form
 - Download funcitonality (resume)
 
-## 👩‍💻 Programming languages
+## 🔧 Technologies and tools
 
 * HTML
 * CSS
 * JavaScript
 * Smooth scroll library 
 * Formspree.io email service
-
-## 🔧 Tools used
-
 * Visual Studio Code
 * My best friend Google 😁
 
